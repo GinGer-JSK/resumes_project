@@ -1,5 +1,3 @@
-import "dotenv/config";
+import 'dotenv/config';
 export const SERVER_PORT = process.env.SERVER_PORT;
-
-console.log(process.env.SERVER_PORT);
-console.log(SERVER_PORT);
+export const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET;
